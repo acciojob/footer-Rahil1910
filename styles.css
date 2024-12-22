@@ -1,1 +1,82 @@
 /* your code here */
+		body{
+            width: 500px;
+        }
+        footer{
+            background-color: rgb(17, 8, 8);
+        }
+        .top{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height:35px;
+        }
+        .logo_name{
+            color:white;
+            font-size: 25px;
+            padding-left:10px;
+        }
+        .media-icons{
+            width: 116px;
+            height: 25px;
+            display: flex;
+            flex-direction: row;
+            padding:8px;
+            justify-content: space-between;
+            padding-bottom: 0px;
+        }
+        .media-icons i{
+            height: 14px;
+            width: 19px;
+            color: white;
+            font-size: 11px;
+            text-align: center;
+            border-radius: 10px;
+            padding-top: 4px;
+        }
+        .link-boxes{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 28rem;
+            margin-left: 25px;
+            margin-top: 23px;
+        }
+        .link{
+            text-align: left;
+        }
+        hr{
+            width: 20px;
+            margin: 0px;
+        }
+        h5{
+            color:white;
+            font-family: Arial;
+            font-weight: 2px;
+            font-size: 11px;
+            margin:0px;
+        }
+        a{
+            text-decoration: none;
+            color:rgb(209, 206, 206);
+            font-size: 11px;;
+        }
+        li{
+            color:rgb(154, 150, 150);
+        }
+        ul{
+            padding-left: 0px;
+            margin-top: 5px;
+            margin-bottom: 30px;
+        }
+        p{
+            color:gray;
+            font-size: 10px;
+        }
+        .bottom-details{
+            background-color: rgb(44, 43, 43);
+            display: flex;
+            justify-content: space-between;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
